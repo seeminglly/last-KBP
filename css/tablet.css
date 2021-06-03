@@ -1,0 +1,644 @@
+/* 아이패드 미니,아이패드*/
+@media only screen and (min-width:768px) and (max-width:833px) {
+    /* #mobileMenu {
+        display: none;
+    }
+    #mobileFooter {
+        display: none;
+    }*/
+    #mobileHeader {
+        display: none;
+    } 
+   
+    #side_menu {
+        display: none;
+    }
+    #mobileHeader {
+        padding: 0;
+        margin: 0;
+        background-color: #E5E4E0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100px;
+    }
+    #mainCategory, #left-menu, #footer {
+        display: none;
+    }
+    .player iframe{
+        width: 700px;
+        height: 500px;
+        padding-top: 10px;
+        margin-left: -70px;
+    }
+    
+    .container {
+        display: none;
+    }
+    .images1 img, .images2 img, .images3 img, .images4 img, .images6 img, .images7 img, .images8 img, .images9 img, .images10 img, .images11 img, .images12 img {
+        width: 223px;
+        height: 223px;
+        /* padding-left: 15px; */
+        cursor: pointer;
+        /* padding: 10px; */
+        padding-left: 18px;
+        padding-bottom: 40px;
+    }
+    .images4 img:last-child {
+        padding-bottom: 30px;
+    }
+    .images1 img {
+        padding-top: 30px;
+    }
+    .images3>.img9, .images4 img {
+        width: 223px;
+        height: 277px;
+    }
+    .images6>.img13 {
+        width: 239px;
+        height: 287px;
+    }
+    .images6>.img11 {
+        width: 240px;
+        height: 346px;
+    }
+    .images5 img {
+        cursor: pointer;
+        width: 750px;
+        padding-left: 7px;
+        padding-bottom: 30px;
+    }
+    .images9>.img16 {
+        height: 277px;
+    }
+    .lastMenu {
+       
+        font-size:20px;
+        color: black;
+        line-height: 50px;
+        cursor: pointer;
+        font-size: 11px;
+        padding-left: -5px;
+        margin-bottom: 30px;
+      }
+    .footerTop1 li, .footerTop2 li {
+          list-style: none;
+          float: left;
+      }
+
+    .footerTop1, .footerTop2 {
+          padding: 10% 10px;
+      }
+    
+    .footerCenter, .sns {
+        list-style: none;
+    }
+    .footerCenter .cs {
+        font-size: 15px;
+        padding: 3px 20px;
+    }
+    .sharing {
+        position:relative;
+        padding-right: 50%;
+    }
+    
+    .menu_btn{
+        position: fixed;
+        padding-right: 80%;
+        cursor: pointer;
+    }
+    .menu_wrap li {
+        color: black;
+        font-size: 13px;
+        list-style: none;
+    }
+    
+    .cart_icon {
+        position: fixed;
+        padding-left: 80%;
+        cursor: pointer;
+    } 
+
+    #mobileFooter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin: 40px auto 40px;
+    }
+    .footer-element ul li {
+        padding: 0 10px 0 30px;
+        float: left;
+        list-style: none;
+        
+    }
+    .footerCenter li {
+        /* width: 20%; */
+        /* display: inline-block; */
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .info_right {
+        margin-left: 60%;
+        position: relative;
+    }
+    
+    .info_left {
+        margin-left: 30px;
+        margin-bottom: -50%;
+    }
+    .mobile_sns {
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 17px;
+    }
+    .mobile_sns img {
+        padding-right: 7px;
+    }
+    .mobileCS a {
+        font-size: 12px;
+    }
+    .mobileCS {
+        margin-left: 0;
+    }
+    .bottomMenu {
+        font-size: 11px;
+        color: #888;
+        margin-left: 0;
+        /* margin-top: 20px; */
+    }
+}
+
+/* 아이패드 프로 10.5형 */
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    #mobileHeader, #mobileMenu, #mobileFooter {
+        display: none;
+    }
+    #side_menu {
+        display: none;
+    }
+    .player iframe{
+        width: 650px;
+        height: 500px;
+        padding-top: 10%;
+        margin-left: 20px;
+    }
+    #mainCategory ul li { 
+        font-size: 13px;
+        font-weight: 600;
+        padding: 0 10px 20px;
+        float: left;
+        list-style: none;
+        cursor: pointer;
+        letter-spacing: -1px;
+        margin-top: 28px;
+        margin-left: 5px;
+    
+    }
+    #menu_btn, #close_btn, .cart_icon {
+        display: none;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 35%;
+        top: 100px;
+        list-style: none;
+        margin-top: 9px;
+        margin-left: -22px;
+    }
+    /* 왼쪽메뉴 */
+    aside#left {
+
+    position: fixed;
+    top: 22%;
+    left: -10px;
+    cursor: pointer;
+    
+
+    }
+    #leftMenu li {
+    list-style: none;
+    font-size: 12px;
+    color: #154182;
+    letter-spacing: -1px;
+    line-height: 25px;
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    }   
+    #leftMenu ul li img {
+    width: 90px;
+    }
+
+    /* 오른쪽메뉴 */
+    #rightMenu ul li {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    padding: 0 0 0 40px; 
+    
+    
+    }
+
+    #rightMenu {
+    transform: rotate(90deg);
+    padding: 0 7% 90%;
+    font-weight: 400;
+    cursor: pointer;
+    }
+
+    aside#right {
+    position: fixed;
+    top: 17%;
+    right: -20px;
+    margin-right: 10px;
+
+    }
+
+    .rightJoin {
+    /* margin-top: 140px; */
+    font-weight: 100;
+    
+    }
+
+    .rightCart {
+    /* margin-top: 127px; */
+    font-weight: 100;
+    
+    }
+
+    .global { 
+    margin-top: 0px; 
+    font-weight: 600;
+   
+    
+    
+    }
+    .earth {
+    transform: rotate(-90deg);
+    margin: 4px 90px;
+    }
+    .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    flex-wrap: wrap;
+    
+    }
+
+    .images {
+    width: 100%;
+    height: auto;
+    
+    
+    }
+
+    .imageFlex1 img, .imageFlex2 img, .imageFlex4 img, .imageFlex5 img, .imageFlex6 img, .imageFlex7 img {
+    width: 120px;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px 0;
+    }
+
+
+    .imageFlex1 {
+      display: flex;
+      row-gap: 20px;
+      padding: 15px 0;
+      padding-left: 17%;
+    }
+    .imageFlex2, .imageFlex3, .imageFlex4, .imageFlex5, .imageFlex6, .imageFlex7 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+        padding-left: 17%;
+    }
+    
+    .imageFlex3 img {
+        width: 650px;
+        height: 90px;
+        
+    }
+
+    /* 풋터 */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+.footerTop {
+    /* padding: 0 10% 0 20%; */
+    margin: 20% 0% -5% ;
+}
+
+.footerMenu {
+    list-style: none;
+    font-weight: 400;
+    
+}
+
+.footer-element ul li {
+    padding: 0 10px 0 30px;
+    float: left;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.footerCenter li {
+    /* width: 20%; */
+    /* display: inline-block; */
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#footer {
+    margin: 120px auto 40px;
+}
+/* .info { 
+    margin: 20%;
+   
+}*/
+.otherlink {
+   margin: 0 6%;
+}
+.sns {
+    margin-left: 51%;
+    margin-top: 30px;
+    margin-bottom: -17px;
+}
+.footerBottom {
+    font-weight: 400;
+    color: #888;
+    font-size: 11px;
+    margin-top: 25%;
+    width: 1040px;
+    margin-left: 14.5%;
+    
+}
+.infoRight {
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+.infoLeft {
+    margin-left: 6%;
+}
+
+.lastMenu {
+    margin-left: 9px;
+}
+}
+
+/* 아이패드 프로 12.9형 */
+@media only screen and (min-width: 1024px) and (max-width: 1209px) {
+    #mobileHeader, #mobileMenu, #mobileFooter {
+        display: none;
+    }
+    #side_menu {
+        display: none;
+    }
+    .player iframe{
+        width: 800px;
+        height: 550px;
+        padding-top: 7%;
+        margin-left: 20px;
+    }
+    #mainCategory ul li { 
+        font-size: 13px;
+        font-weight: 600;
+        padding: 0 10px 20px;
+        float: left;
+        list-style: none;
+        cursor: pointer;
+        letter-spacing: -1px;
+        margin-top: 28px;
+        margin-left: 5px;
+    
+    }
+    #menu_btn, #close_btn, .cart_icon {
+        display: none;
+    }
+    .logo {
+        position: absolute;
+        left: 35%;
+        top: 100px;
+        list-style: none;
+        margin-top: 9px;
+        margin-left: -22px;
+    }
+    /* 왼쪽메뉴 */
+    aside#left {
+
+    position: fixed;
+    top: 22%;
+    left: -10px;
+    cursor: pointer;
+    
+
+    }
+    #leftMenu li {
+    list-style: none;
+    font-size: 12px;
+    color: #154182;
+    letter-spacing: -1px;
+    line-height: 25px;
+    }
+
+    a {
+    text-decoration: none;
+    color: black;
+    }   
+    #leftMenu ul li img {
+    width: 90px;
+    }
+
+    /* 오른쪽메뉴 */
+    #rightMenu ul li {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    padding: 0 0 0 40px; 
+    
+    
+    }
+
+    #rightMenu {
+    transform: rotate(90deg);
+    padding: 0 7% 90%;
+    font-weight: 400;
+    cursor: pointer;
+    }
+
+    aside#right {
+    position: fixed;
+    top: 17%;
+    right: -20px;
+    margin-right: 10px;
+
+    }
+
+    .rightJoin {
+    /* margin-top: 140px; */
+    font-weight: 100;
+    
+    }
+
+    .rightCart {
+    /* margin-top: 127px; */
+    font-weight: 100;
+    
+    }
+
+    .global { 
+    margin-top: 0px; 
+    font-weight: 600;
+   
+    
+    
+    }
+    .earth {
+    transform: rotate(-90deg);
+    margin: 4px 90px;
+    }
+    .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    flex-wrap: wrap;
+    
+    }
+
+    .images {
+    width: 100%;
+    height: auto;
+    
+    
+    }
+
+    .images img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    }
+
+
+    .imageFlex1 {
+      display: flex;
+      row-gap: 20px;
+      padding: 15px 0;
+    }
+    .imageFlex2 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+    }
+    .imageFlex3 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+    
+
+    }
+    .imageFlex3 img {
+        width: 400px;
+        height: 20px;
+    }
+
+    .imageFlex4 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+    }
+    .imageFlex5 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+    }
+    .imageFlex6 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+    }
+    .imageFlex7 {
+        display: flex;
+        row-gap: 20px;
+        padding: 5px 0;
+    }
+    .footerTop {
+        /* padding: 0 10% 0 20%; */
+        margin: 20% 10% -7% ;
+    }
+    
+    .footerMenu {
+        list-style: none;
+        font-weight: 400;
+        
+    }
+    
+    .footer-element ul li {
+        padding: 0 10px 0 30px;
+        float: left;
+        list-style: none;
+        cursor: pointer;
+        
+    }
+    .footerCenter li {
+        /* width: 20%; */
+        /* display: inline-block; */
+        padding: 0;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    #footer {
+        margin: 120px auto 40px;
+    }
+    /* .info { 
+        margin: 20%;
+       
+    }*/
+    .otherlink {
+       margin: 0 10%;
+    }
+    .sns {
+        margin-left: 51%;
+        margin-top: 30px;
+        margin-bottom: -17px;
+    }
+    .footerBottom {
+        font-weight: 400;
+        color: #888;
+        font-size: 11px;
+        margin-top: 30%;
+        width: 1040px;
+        margin-left: 4%;
+       
+        
+    }
+    .infoRight {
+        margin-left: 25%;
+    }
+    
+    .infoLeft {
+        margin-left: 10%;
+    }
+    
+    .lastMenu {
+        margin-left: 9px;
+    }
+}
