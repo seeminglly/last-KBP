@@ -1,6 +1,6 @@
 /* 아이패드 미니,아이패드*/
 @media only screen and (min-width:415px) and (max-width:833px) {
-    #mobileHeader {
+    header {
         padding: 0;
         margin: 0;
         background-color: #E5E4E0;
@@ -21,8 +21,8 @@
     .logo {
         position: fixed;
         cursor: pointer;
-        margin-top: 1%;
-        margin-left: 27%;
+        margin-top: -3%;
+        margin-left: -21%;
         
     }
     .logo img {
@@ -32,7 +32,7 @@
     #menu_btn {
         position: fixed;
         padding-left: 7%;
-        padding-top: -20%;
+        margin-top: 5%;
         cursor: pointer;
     }
     
@@ -90,7 +90,7 @@
     #cart_icon {
         position: fixed;
         margin-left: 88%;
-        margin-top: -7%;
+        margin-top: -2%;
         cursor: pointer;
         width: 24px;
         height: 24px;
@@ -109,7 +109,7 @@
     /* 유튜브 영상 */
     .player iframe{
         width: 700px;
-        height: 390px;
+        height: 420px;
         padding-top: 7%;
         margin-left: 37px;
     }
@@ -247,7 +247,7 @@
 
 /* 아이패드 프로 10.5형 */
 @media only screen and (min-width: 834px) and (max-width: 1023px) {
-    #mobileHeader {
+    header {
         padding: 0;
         margin: 0;
         background-color: #E5E4E0;
@@ -268,8 +268,8 @@
     .logo {
         position: fixed;
         cursor: pointer;
-        margin-top: -1%;
-        margin-left: 27%;
+        margin-top: -3%;
+        margin-left: -19%;
         
     }
     .logo img {
@@ -279,7 +279,7 @@
     #menu_btn {
         position: fixed;
         padding-left: 7%;
-        margin-top: -2%;
+        margin-top: 4%;
         cursor: pointer;
     }
     
@@ -287,7 +287,7 @@
     #cart_icon {
         position: fixed;
         padding-left: 35px;
-        padding-top: 5%;
+        padding-top: 11%;
         cursor: pointer;
     } 
     #close_btn {
@@ -357,7 +357,7 @@
     /* 유튜브 영상 */
     .player iframe{
         width: 780px;
-        height: 400px;
+        height: 450px;
         padding-top: 4%;
         margin-left: 30px;
     }
