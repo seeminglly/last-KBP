@@ -21,13 +21,13 @@
     .logo {
         position: fixed;
         cursor: pointer;
-        margin-top: -2%;
+        margin-top: 1%;
         margin-left: 27%;
         
     }
     .logo img {
-        width: 260px;
-        height: 25px;
+        width: 270px;
+        height: 30px;
     }
     #menu_btn {
         position: fixed;
@@ -39,7 +39,7 @@
         position: fixed;
         padding-right: 80%;
         cursor: pointer;
-        padding-top: 4%;
+        padding-top: -4%;
     }
     .menu_wrap li {
         color: black;
@@ -50,13 +50,13 @@
     #cart_icon {
         position: fixed;
         padding-left: 40px;
-        padding-top: 4%;
+        padding-top: 7%;
         cursor: pointer;
     } 
     #close_btn {
         position: absolute;
         padding-left: 40%;
-        margin-top: -12%;
+        margin-top: -10px;
         cursor: pointer;
         display: none;
     }
@@ -121,7 +121,7 @@
     .player iframe{
         width: 700px;
         height: 390px;
-        padding-top: 4%;
+        padding-top: 7%;
         margin-left: 37px;
     }
     
@@ -377,7 +377,7 @@
     
     /* 유튜브 영상 */
     .player iframe{
-        width: 770px;
+        width: 830px;
         height: 400px;
         padding-top: 4%;
         margin-left: 37px;
@@ -422,26 +422,19 @@
     }
 
     /* 풋터 */
-    .lastMenu {
-       
-        font-size:20px;
-        color: black;
-        line-height: 50px;
-        cursor: pointer;
-        font-size: 11px;
-        padding-left: -5px;
-        margin-bottom: 30px;
-      }
+    .mobileCS {
+        margin-bottom: 10%;
+    }
     .footerTop1 li, .footerTop2 li {
           list-style: none;
           float: left;
-      }
+      } 
 
     .footerTop1, .footerTop2 {
           padding: 10% 10px;
       }
     
-    .footerCenter, .sns {
+    .sns {
         list-style: none;
     }
     .footerCenter .cs {
@@ -465,10 +458,10 @@
         float: left;
         list-style: none;
         
-    }
+    } 
     .footerCenter li {
         /* width: 20%; */
-        /* display: inline-block; */
+        /* /* display: inline-block;  */
         padding: 0;
         font-size: 14px;
         font-weight: 400;
@@ -500,7 +493,7 @@
         font-size: 11px;
         color: #888;
         margin-left: 0;
-        /* margin-top: 20px; */
+        margin-top: -11%;
     }
     /* 스크롤투탑 */
     .scrollToTop {
@@ -515,10 +508,10 @@
 }
 /* 아이패드 프로 12.9형 */
 @media only screen and (min-width: 1024px) and (max-width: 1209px) {
-    #mobileHeader, #mobileMenu, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu, #rightMenu, #left-menu, .proFooter, .container  {
+    #mobileHeader, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu, #rightMenu, #left-menu, .proFooter, .images  {
         display: none;
     }
-
+    
 /* 헤더 */
 header {
     padding: 0;
@@ -590,60 +583,49 @@ header {
     border-bottom:4px solid #154182;     
 }
 
-/* 추가메뉴 */
-
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 17%;
-    flex-wrap: wrap;
-    
+/* 내리면 보이는 추가메뉴들 */
+.images1 img, .images2 img, .images3 img, .images4 img, .images6 img, .images7 img, .images8 img, .images9 img, .images10 img, .images11 img, .images12 img {
+    width: 283px;
+    height: 283px;
+    /* padding-left: 15px; */
+    cursor: pointer;
+    /* padding: 10px; */
+    padding-left: 28px;
+    padding-bottom: 40px;
 }
-
-.images {
-    width: 100%;
-    height: auto;
-    
-    
-}
-
-.images img {
-    width: 233px;
-    height: 250px;
-    object-fit: contain;
-  }
-
-
-
-.imageFlex1, .imageFlex2, .imageFlex3, .imageFlex4, .imageFlex5, .imageFlex6, .imageFlex7 {
-      display: flex;
-      row-gap: 20px;
-      padding: 5px 5px;
-      cursor: pointer;
-}
-.imageFlex1 {
-    margin-top: -20%;
-    margin-left: -2%;
-}
-.item22:hover {
-    background: url(./images/item22_hover.png)
-}
-.imageFlex1>.img2 {
-    margin-right: 10px;
-}
-.imageFlex7 {
-    margin-bottom: -17%;
-}
-
-ul li a:hover::after {
-  width: 100%;
-  left: 0;
-  transition: all .3s;
-  
+#mobileMenu {
+    padding-left: 3%;
+    padding-top: 7%;
 
 }
+.images4 img:last-child {
+    padding-bottom: 30px;
+}
+.images1 img {
+    padding-top: -10%;
+}
+.images3>.img9, .images4 img {
+    width: 283px;
+    height: 337px;
+}
+.images6>.img13 {
+    width: 299px;
+    height: 347px;
+}
+.images6>.img11 {
+    width: 300px;
+    height: 406px;
+}
+.images5 img {
+    cursor: pointer;
+    width: 1000px;
+    padding-left: 7px;
+    padding-bottom: 30px;
+}
+.images9>.img16 {
+    height: 337px;
+}
+
 
 /* 유튜브 영상 */
 .player iframe{
@@ -654,7 +636,7 @@ ul li a:hover::after {
 }
 
 .player {
-    margin-top: 14%;
+    margin-top: 16%;
     margin-left: 3%;
 }
 
@@ -754,42 +736,6 @@ aside#right {
 }
 
 
-
-/* 내리면 보이는 추가메뉴들 */
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 17%;
-    flex-wrap: wrap;
-    
-}
-
-.images {
-    width: 100%;
-    height: auto;
-    
-    
-}
-
-.images img {
-    width: 165px;
-    height: 200px;
-    object-fit: contain;
-  }
-
-
-.imageFlex1, .imageFlex2, .imageFlex3, .imageFlex4, .imageFlex5, .imageFlex6, .imageFlex7 {
-      display: flex;
-      row-gap: 20px;
-      padding: 5px 0;
-}
-.imageFlex3 img {
-        width: 800px;
-}
-
-
 /* 풋터 */
 footer {
     display: flex;
@@ -832,7 +778,7 @@ footer {
    margin: 0 10%;
 }
 .sns {
-    margin-left: 57%;
+    margin-left: 62%;
     margin-top: 35px;
     margin-bottom: -17px;
 }
@@ -840,9 +786,9 @@ footer {
     font-weight: 400;
     color: #888;
     font-size: 11px;
-    margin-top: 19%;
+    margin-top: 21%;
     
-    margin-left: 16%;
+    margin-left: 167px;
     
 }
 .infoRight {
@@ -854,7 +800,7 @@ footer {
 }
 
 .lastMenu {
-    margin-left: 0px;
+    margin-left: -10px;
     font-size: 11px;
 }
 
