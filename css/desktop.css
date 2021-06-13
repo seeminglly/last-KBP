@@ -10,10 +10,12 @@ body {
 }
 
 @media only screen and (min-width: 1210px) {
-    #mobileHeader, #mobileMenu, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu, .proFooter {
+    #mobileHeader, #mobileMenu, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu {
         display: none;
     }
-
+.proFooter {
+    display: none;
+}
 /* 헤더 */
 header {
     padding: 0;

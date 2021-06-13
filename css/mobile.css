@@ -19,8 +19,8 @@
     .logo {
         position: fixed;
         cursor: pointer;
-        margin-top: -15%;
-        margin-left: -19%;
+        margin-top: -2%;
+        margin-left: 12%;
         /* width="225" height="25" */
     }
     .logo img {
@@ -88,17 +88,18 @@
     
     #cart_icon {
         position: fixed;
-        margin-left: 88%;
-        margin-top: -2%;
+        margin-left: 87%;
+        margin-top: -4%;
         cursor: pointer;
         width: 24px;
         height: 24px;
+        color: #111;
     } 
     .player iframe{
         width: 370px;
         height: 210px;
         padding-top: 10%;
-        margin-left: -30px;
+        padding-left: 23px;
     }
     .images1 img, .images2 img, .images3 img, .images4 img, .images6 img, .images7 img, .images8 img, .images9 img, .images10 img, .images11 img, .images12 img {
         width: 123px;
@@ -231,14 +232,14 @@
         width: 350px;
         height: 215px;
         padding-top: 10%;
-        margin-left: -40px;
+        padding-left: 14px;
     }
 
     .logo {
         position: fixed;
         cursor: pointer;
-        margin-top: -16%;
-        margin-left: -20%;
+        margin-top: -1%;
+        margin-left: 10%;
         /* width="225" height="25" */
     }
     .logo img {
@@ -267,7 +268,7 @@
     #cart_icon {
         position: fixed;
         margin-left: 88%;
-        margin-top: -2%;
+        margin-top: -4%;
         cursor: pointer;
         width: 24px;
         height: 24px;
@@ -410,6 +411,10 @@
         margin-left: 10%;
         margin-bottom: -82%;
     }
+    .cat img {
+        width: 90px;
+        height: 74px;
+    }
 }
 
 /* 아이폰SE */
@@ -434,14 +439,13 @@
         width: 305px;
         height: 205px;
         padding-top: 10%;
-        margin-left: -37px;
+        padding-left: 8px;
     }
     .logo {
         position: fixed;
         cursor: pointer;
-        margin-top: -20%;
-        margin-left: -25%;
-        /* width="225" height="25" */
+        margin-top: -2%;
+        margin-left: 3%;
     }
     .logo img {
         width: 225px;
@@ -450,7 +454,7 @@
     #menu_btn {
         position: fixed;
         padding-left: 5%;
-        margin-top: -3%;
+        margin-top: -6%;
         cursor: pointer;
     }
     #close_btn {
@@ -508,7 +512,7 @@
     #cart_icon {
         position: fixed;
         margin-left: 88%;
-        margin-top: -2%;
+        margin-top: -6%;
         cursor: pointer;
         width: 24px;
         height: 24px;
