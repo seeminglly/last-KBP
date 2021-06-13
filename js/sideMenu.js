@@ -1,10 +1,12 @@
-// 모바일 브라우저 가로크기 체크
+
     // 햄버거 바 아이콘 선택자
     const menuOpenEl = document.getElementById('menu_btn')
     // 닫는 아이콘 선택자
     const menuCloseEl = document.getElementById('close_btn')
     // 사이드 네비게이션 선택자
     const sideMenuEl = document.getElementById('side_menu')
+    // 장바구니 선택자
+    const cartIcon = document.getElementById('cart_icon')
     
     // 햄버거 바 아이콘에 클릭 이벤트가 발생하면,
     menuOpenEl.addEventListener("click", function() {
@@ -12,6 +14,8 @@
         menuOpenEl.style.display = "none"
         // 닫는 아이콘 보이게
         menuCloseEl.style.display = "block"
+        // 장바구니 보이지 않게
+        cartIcon.style.display = "none"
         // 사이드 메뉴를 보이게 합니다 
         sideMenuEl.style.transform = "translateX(0%)"
     })
@@ -20,6 +24,7 @@
     menuCloseEl.addEventListener("click", function() {
         menuCloseEl.style.display = "none"
         menuOpenEl.style.display = "block"
+        cartIcon.style.display = "block"
         sideMenuEl.style.transform = "translateX(-100%)"
     })
        
