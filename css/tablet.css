@@ -515,12 +515,10 @@
 }
 /* 아이패드 프로 12.9형 */
 @media only screen and (min-width: 1024px) and (max-width: 1209px) {
-    #mobileHeader, #mobileMenu, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu {
+    #mobileHeader, #mobileMenu, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu, #rightMenu, #left-menu, .proFooter, .container  {
         display: none;
     }
-.proFooter {
-    display: none;
-}
+
 /* 헤더 */
 header {
     padding: 0;
@@ -552,15 +550,15 @@ header {
 
 .logo {
     position: absolute;
-    left: 40%;
+    left: 38%;
     top: 100px;
     list-style: none;
     margin-top: 9px;
     margin-left: -22px;
 }
 .logo img {
-    width: 319px;
-    height: 35px;
+    width: 300px;
+    height: 33px;
 }
 .nav-up {
     top: -100px;
@@ -612,7 +610,7 @@ header {
 }
 
 .images img {
-    width: 203px;
+    width: 233px;
     height: 250px;
     object-fit: contain;
   }
@@ -650,14 +648,14 @@ ul li a:hover::after {
 /* 유튜브 영상 */
 .player iframe{
     /* width="1040px" height="585px" */
-    width: 810px;
+    width: 970px;
     height: 460px;
     
 }
 
 .player {
     margin-top: 14%;
-    margin-left: 18%;
+    margin-left: 3%;
 }
 
 
