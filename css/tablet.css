@@ -35,17 +35,6 @@
         padding-top: -20%;
         cursor: pointer;
     }
-    .menu_btn{
-        position: fixed;
-        padding-right: 80%;
-        cursor: pointer;
-        padding-top: -4%;
-    }
-    .menu_wrap li {
-        color: black;
-        font-size: 13px;
-        list-style: none;
-    }
     
     #cart_icon {
         position: fixed;
@@ -56,7 +45,7 @@
     #close_btn {
         position: absolute;
         padding-left: 40%;
-        margin-top: -10px;
+        margin-top: -30px;
         cursor: pointer;
         display: none;
     }
@@ -290,31 +279,21 @@
     #menu_btn {
         position: fixed;
         padding-left: 7%;
-        padding-top: -7%;
+        margin-top: -2%;
         cursor: pointer;
     }
-    .menu_btn{
-        position: fixed;
-        padding-right: 80%;
-        cursor: pointer;
-        padding-top: 10%;
-    }
-    .menu_wrap li {
-        color: black;
-        font-size: 13px;
-        list-style: none;
-    }
+    
     
     #cart_icon {
         position: fixed;
-        padding-left: 40px;
+        padding-left: 35px;
         padding-top: 5%;
         cursor: pointer;
     } 
     #close_btn {
         position: absolute;
-        padding-left: 40%;
-        margin-top: -12%;
+        padding-left: 37%;
+        margin-top: -30px;
         cursor: pointer;
         display: none;
     }
