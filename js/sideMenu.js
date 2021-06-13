@@ -22,9 +22,13 @@
     
     // 닫는 아이콘 클릭하면
     menuCloseEl.addEventListener("click", function() {
+        // 닫는 아이콘 사라지게
         menuCloseEl.style.display = "none"
+        // 햄버거 아이콘 보이게
         menuOpenEl.style.display = "block"
+        // 장바구니 보이게
         cartIcon.style.display = "block"
+        // 사이드메뉴 사라지게
         sideMenuEl.style.transform = "translateX(-100%)"
     })
        

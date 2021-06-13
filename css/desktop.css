@@ -10,26 +10,9 @@ body {
 }
 
 @media only screen and (min-width: 1210px) {
-    #mobileHeader {
+    #mobileHeader, #mobileMenu, #mobileFooter, #menu_btn, #close_btn, .cart_icon, #side_menu, .proFooter {
         display: none;
     }
-    #mobileMenu {
-        display: none;
-    }
-    #mobileFooter {
-        display: none;
-    }
-
-    #menu_btn, #close_btn, .cart_icon {
-        display: none;
-    }
-    #side_menu {
-        display: none;
-    }
-    .proFooter {
-        display: none;
-    }
-}
 
 /* 헤더 */
 header {
@@ -75,12 +58,6 @@ header {
 .nav-up {
     top: -100px;
 }
-
-
-
-/* .dropdown1 {   
-    text-decoration: none;
-}*/
 
 .dropdown-content {
     visibility: hidden;
@@ -135,12 +112,12 @@ header {
 
 
 
-    .imageFlex1, .imageFlex2, .imageFlex3, .imageFlex4, .imageFlex5, .imageFlex6, .imageFlex7 {
+.imageFlex1, .imageFlex2, .imageFlex3, .imageFlex4, .imageFlex5, .imageFlex6, .imageFlex7 {
       display: flex;
       row-gap: 20px;
       padding: 5px 5px;
       cursor: pointer;
-    }
+}
 .imageFlex1 {
     margin-top: -20%;
     margin-left: -2%;
@@ -298,44 +275,14 @@ aside#right {
   }
 
 
-    .imageFlex1 {
+.imageFlex1, .imageFlex2, .imageFlex3, .imageFlex4, .imageFlex5, .imageFlex6, .imageFlex7 {
       display: flex;
       row-gap: 20px;
       padding: 5px 0;
-    }
-    .imageFlex2 {
-        display: flex;
-        row-gap: 20px;
-        padding: 5px 0;
-    }
-    .imageFlex3 {
-        display: flex;
-        row-gap: 20px;
-        padding: 5px 0;
-    }
-    .imageFlex3 img {
+}
+.imageFlex3 img {
         width: 1040px;
-    }
-    .imageFlex4 {
-        display: flex;
-        row-gap: 20px;
-        padding: 5px 0;
-    }
-    .imageFlex5 {
-        display: flex;
-        row-gap: 20px;
-        padding: 5px 0;
-    }
-    .imageFlex6 {
-        display: flex;
-        row-gap: 20px;
-        padding: 5px 0;
-    }
-    .imageFlex7 {
-        display: flex;
-        row-gap: 20px;
-        padding: 5px 0;
-    }
+}
 
 
 /* 풋터 */
@@ -376,10 +323,6 @@ footer {
 #footer {
     margin: 120px auto 40px;
 }
-/* .info { 
-    margin: 20%;
-   
-}*/
 .otherlink {
    margin: 0 10%;
 }
@@ -408,13 +351,13 @@ footer {
 .lastMenu {
     margin-left: 9px;
 }
-/* 실제 콘텐츠 영역을 잡아주는 inner입니다 */
+
 
 .inner {
     width: 960px;
     margin: 0 auto;
     /* scrollToTop 요소가 잘 작동하는지 확인하고자 */
-    /* 페이지를 길게 만들기 위해 inner에 높이를 지정했습니다 */
+    /* 페이지를 길게 만들기 위해 inner에 높이를 지정 */
     height: 50px;
     /* inner의 하위 요소에 margin값을 설정하는 경우 잘 적용되도록 */
     /* display 속성은 flex로 설정합니다 */
@@ -455,7 +398,5 @@ footer {
     margin-left: 4%;
     margin-bottom: -18%;
 }
-
-
-
+}
 
